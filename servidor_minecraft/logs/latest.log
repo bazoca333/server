@@ -1,32 +1,32 @@
-[08May2025 20:19:43.042] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[08May2025 20:19:43.047] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[08May2025 20:19:43.509] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08May2025 20:19:43.558] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[08May2025 20:19:43.788] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[08May2025 20:19:43.789] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08May2025 20:19:43.790] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08May2025 20:19:43.792] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[08May2025 20:19:43.920] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[08May2025 20:19:45.258] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08May2025 20:19:45.283] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[08May2025 20:19:45.383] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[08May2025 20:19:46.277] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[08May2025 20:19:49.017] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zba000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[08May2025 20:19:49.879] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[08May2025 20:19:49.882] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[08May2025 20:19:49.911] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[08May2025 20:19:49.912] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[08May2025 20:19:49.960] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[08May2025 20:19:49.961] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[08May2025 20:19:49.963] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[08May2025 20:19:49.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[08May2025 20:19:49.965] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[08May2025 20:19:49.965] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[08May2025 20:19:49.967] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[08May2025 20:19:49.968] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[08May2025 20:19:51.326] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[08May2025 20:19:51.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[08May2025 20:19:51.712] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08May2025 20:36:16.248] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[08May2025 20:36:16.251] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[08May2025 20:36:16.504] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08May2025 20:36:16.543] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08May2025 20:36:16.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[08May2025 20:36:16.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08May2025 20:36:16.766] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08May2025 20:36:16.767] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[08May2025 20:36:16.884] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[08May2025 20:36:18.045] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08May2025 20:36:18.073] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[08May2025 20:36:18.170] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[08May2025 20:36:19.021] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[08May2025 20:36:21.471] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zba000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08May2025 20:36:22.245] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[08May2025 20:36:22.248] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[08May2025 20:36:22.278] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[08May2025 20:36:22.278] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[08May2025 20:36:22.337] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08May2025 20:36:22.338] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[08May2025 20:36:22.339] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[08May2025 20:36:22.340] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[08May2025 20:36:22.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[08May2025 20:36:22.343] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[08May2025 20:36:22.344] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[08May2025 20:36:22.345] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[08May2025 20:36:23.696] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[08May2025 20:36:23.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[08May2025 20:36:23.915] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -41,8 +41,8 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[08May2025 20:19:51.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[08May2025 20:19:51.724] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08May2025 20:36:23.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[08May2025 20:36:23.928] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -57,67 +57,102 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[08May2025 20:19:51.725] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08May2025 20:19:51.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[08May2025 20:19:51.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[08May2025 20:19:52.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[08May2025 20:19:52.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[08May2025 20:19:52.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[08May2025 20:19:53.757] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08May2025 20:19:55.728] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[08May2025 20:19:55.728] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[08May2025 20:19:57.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[08May2025 20:19:57.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[08May2025 20:19:57.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[08May2025 20:19:57.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[08May2025 20:19:57.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[08May2025 20:19:57.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[08May2025 20:19:57.126] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[08May2025 20:19:57.128] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[08May2025 20:19:57.130] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
-[08May2025 20:19:57.253] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2597 advancements
-[08May2025 20:19:57.261] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[08May2025 20:19:57.266] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
-[08May2025 20:19:57.268] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[08May2025 20:19:58.979] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[08May2025 20:19:58.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08May2025 20:19:58.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08May2025 20:19:58.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08May2025 20:19:59.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08May2025 20:19:59.054] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08May2025 20:19:59.133] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08May2025 20:19:59.134] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08May2025 20:19:59.134] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08May2025 20:19:59.134] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08May2025 20:19:59.187] [Server thread/INFO] [Framework/]: Loading server configs...
-[08May2025 20:19:59.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08May2025 20:19:59.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08May2025 20:20:00.952] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08May2025 20:20:00.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08May2025 20:20:00.993] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08May2025 20:20:01.406] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08May2025 20:20:01.906] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08May2025 20:20:02.403] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[08May2025 20:20:02.708] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2806 ms
-[08May2025 20:20:02.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.565s)! For help, type "help"
-[08May2025 20:20:02.727] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08May2025 20:20:53.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.119.167.159:39653] logged in with entity id 238 at (157.41128322866643, 102.0, -80.5685479850099)
-[08May2025 20:20:53.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[08May2025 20:26:49.937] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
-[08May2025 20:26:49.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[08May2025 20:27:09.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[08May2025 20:27:09.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08May2025 20:27:09.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08May2025 20:27:09.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08May2025 20:27:09.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08May2025 20:27:10.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[08May2025 20:27:10.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[08May2025 20:27:10.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[08May2025 20:27:10.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08May2025 20:27:10.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08May2025 20:27:10.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[08May2025 20:27:10.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08May2025 20:27:10.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08May2025 20:27:10.277] [Server thread/INFO] [Framework/]: Unloading server configs...
-[08May2025 20:27:10.278] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[08May2025 20:27:10.280] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[08May2025 20:36:23.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08May2025 20:36:24.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[08May2025 20:36:24.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[08May2025 20:36:24.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[08May2025 20:36:24.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[08May2025 20:36:24.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[08May2025 20:36:26.163] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08May2025 20:36:28.093] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[08May2025 20:36:28.093] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[08May2025 20:36:29.449] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[08May2025 20:36:29.495] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[08May2025 20:36:29.500] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[08May2025 20:36:29.501] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[08May2025 20:36:29.504] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[08May2025 20:36:29.506] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[08May2025 20:36:29.515] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[08May2025 20:36:29.516] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[08May2025 20:36:29.518] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
+[08May2025 20:36:29.614] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2597 advancements
+[08May2025 20:36:29.621] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[08May2025 20:36:29.624] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[08May2025 20:36:29.625] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[08May2025 20:36:31.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08May2025 20:36:31.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08May2025 20:36:31.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08May2025 20:36:31.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08May2025 20:36:31.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08May2025 20:36:31.409] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08May2025 20:36:31.501] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08May2025 20:36:31.501] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08May2025 20:36:31.501] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08May2025 20:36:31.501] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08May2025 20:36:31.562] [Server thread/INFO] [Framework/]: Loading server configs...
+[08May2025 20:36:31.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08May2025 20:36:32.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08May2025 20:36:33.851] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2025 20:36:33.864] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2025 20:36:33.869] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2025 20:36:33.873] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2025 20:36:34.282] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2025 20:36:34.762] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[08May2025 20:36:35.058] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2796 ms
+[08May2025 20:36:35.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.546s)! For help, type "help"
+[08May2025 20:36:35.078] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08May2025 20:37:11.084] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DesmondMX[/127.59.116.92:41547] logged in with entity id 249 at (155.6512705434193, 102.0, -80.08153500358831)
+[08May2025 20:37:11.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX joined the game
+[08May2025 20:37:53.143] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cricri06_[/127.135.48.63:32905] logged in with entity id 420 at (-1.5, 106.0, 26.5)
+[08May2025 20:37:53.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ joined the game
+[08May2025 20:38:46.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [A Seedy Place]
+[08May2025 20:39:46.651] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.119.167.159:52175] logged in with entity id 1156 at (158.10957300048864, 103.0, -83.00714683382827)
+[08May2025 20:39:46.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[08May2025 20:41:47.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Crops of the Wild]
+[08May2025 20:43:39.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Monster Hunter]
+[08May2025 20:44:26.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Stone Age]
+[08May2025 20:45:05.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Getting an Upgrade]
+[08May2025 20:47:32.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <bazoka33> zzzz
+[08May2025 20:47:35.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DesmondMX> zzzzzzz
+[08May2025 20:47:36.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Sweet Dreams]
+[08May2025 20:56:50.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Best Friends Forever]
+[08May2025 20:57:10.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Hot Stuff]
+[08May2025 21:01:41.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Monster Hunter]
+[08May2025 21:08:08.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [The Beginning of An Adventure]
+[08May2025 21:08:08.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Cover Me In Emeralds]
+[08May2025 21:08:39.783] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/9, l='ServerLevel[world]', x=83.30, y=89.96, z=-69.25] died, message: 'Leatherworker tried to swim in lava'
+[08May2025 21:09:18.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Voluntary Exile]
+[08May2025 21:15:39.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Acquire Hardware]
+[08May2025 21:18:55.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Ol' Betsy]
+[08May2025 21:19:54.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Suit Up]
+[08May2025 21:21:40.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Chest Slayer]
+[08May2025 21:21:43.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Amateur Archaeologist]
+[08May2025 21:23:01.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Diamonds!]
+[08May2025 21:23:51.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ has made the advancement [Take Aim]
+[08May2025 21:23:52.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Suit Up]
+[08May2025 21:26:00.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Sneak 100]
+[08May2025 21:36:38.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Cover Me with Diamonds]
+[08May2025 21:36:56.990] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cricri06_ lost connection: Disconnected
+[08May2025 21:36:56.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cricri06_ left the game
+[08May2025 21:49:34.339] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[08May2025 21:49:34.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[08May2025 21:49:42.984] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DesmondMX lost connection: Disconnected
+[08May2025 21:49:42.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX left the game
+[08May2025 21:50:27.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08May2025 21:50:27.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: STOP<--[HERE]
+[08May2025 21:50:30.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08May2025 21:50:30.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08May2025 21:50:30.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08May2025 21:50:30.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08May2025 21:50:31.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08May2025 21:50:31.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[08May2025 21:50:31.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08May2025 21:50:31.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08May2025 21:50:31.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08May2025 21:50:31.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[08May2025 21:50:31.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08May2025 21:50:31.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08May2025 21:50:31.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08May2025 21:50:31.700] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08May2025 21:50:31.701] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[08May2025 21:50:31.702] [Server thread/INFO] [Framework/]: Finished unloading server configs
