@@ -129,3 +129,16 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 21:48:05.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Return to Sender]
 [09May2025 21:53:07.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Who is Cutting Onions?]
 [09May2025 21:55:34.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Hot Stuff]
+[09May2025 22:10:06.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty is Easy
+[09May2025 22:10:12.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty has been set to Hard
+[09May2025 22:18:41.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Iron Golem
+[09May2025 22:19:20.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Iron Golem
+[09May2025 22:21:18.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Iron Golem
+[09May2025 22:23:48.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[09May2025 22:23:48.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[09May2025 22:23:55.423] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:42065] logged in with entity id 18843 at (79.0737022338802, 91.5, -63.72806060307118)
+[09May2025 22:23:55.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[09May2025 22:24:08.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[09May2025 22:24:08.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[09May2025 22:24:13.574] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:51727] logged in with entity id 18893 at (79.0737022338802, 91.5, -63.72806060307118)
+[09May2025 22:24:13.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
