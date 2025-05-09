@@ -150,3 +150,4 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 22:58:43.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Fishy Business]
 [09May2025 23:04:37.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:59639] logged in with entity id 26088 at (150.30000001192093, 102.0, -61.30000001192093)
 [09May2025 23:04:37.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[09May2025 23:08:06.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [7851857608677403870]

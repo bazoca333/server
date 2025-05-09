@@ -2327,6 +2327,7 @@
     "criteria": {
       "minecraft:pillager": "2025-05-08 21:07:27 +0000",
       "minecraft:skeleton": "2025-05-08 20:48:44 +0000",
+      "minecraft:hoglin": "2025-05-09 23:12:40 +0000",
       "minecraft:magma_cube": "2025-05-09 21:42:17 +0000",
       "minecraft:spider": "2025-05-08 21:01:37 +0000",
       "minecraft:creeper": "2025-05-08 21:35:02 +0000",
@@ -3388,6 +3389,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-05-09 23:12:17 +0000",
       "minecraft:nether_wastes": "2025-05-09 21:46:17 +0000",
       "minecraft:basalt_deltas": "2025-05-09 21:39:14 +0000",
       "minecraft:warped_forest": "2025-05-09 21:47:16 +0000"
@@ -3499,6 +3501,12 @@
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-05-09 22:44:19 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 23:12:41 +0000"
     },
     "done": true
   },
@@ -3637,6 +3645,18 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-09 21:45:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-05-09 23:12:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 23:12:41 +0000"
     },
     "done": true
   },
@@ -4267,6 +4287,12 @@
   "refurbished_furniture:recipes/decorations/green_toilet": {
     "criteria": {
       "has_ceiling_fan": "2025-05-09 22:51:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-05-09 23:12:41 +0000"
     },
     "done": true
   },
