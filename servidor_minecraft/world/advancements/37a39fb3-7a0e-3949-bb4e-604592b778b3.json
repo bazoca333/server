@@ -1262,6 +1262,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-05-09 21:25:22 +0000",
+      "minecraft:blaze": "2025-05-09 23:24:20 +0000",
       "minecraft:skeleton": "2025-05-08 21:02:11 +0000",
       "minecraft:ravager": "2025-05-09 21:27:41 +0000",
       "minecraft:ghast": "2025-05-09 21:46:27 +0000",
@@ -1269,6 +1270,7 @@
       "minecraft:spider": "2025-05-08 21:02:23 +0000",
       "minecraft:creeper": "2025-05-08 21:04:14 +0000",
       "minecraft:zombified_piglin": "2025-05-09 22:10:53 +0000",
+      "minecraft:wither_skeleton": "2025-05-09 23:20:10 +0000",
       "minecraft:enderman": "2025-05-08 21:46:59 +0000",
       "minecraft:zombie": "2025-05-07 21:15:14 +0000"
     },
@@ -3832,6 +3834,30 @@
   "refurbished_furniture:recipes/misc/constructing/crimson_storage_jar": {
     "criteria": {
       "has_glass": "2025-05-09 22:42:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-05-09 23:24:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-09 23:24:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-05-09 23:19:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-05-09 23:24:21 +0000"
     },
     "done": true
   },

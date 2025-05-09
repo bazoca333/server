@@ -151,3 +151,22 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 23:04:37.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:59639] logged in with entity id 26088 at (150.30000001192093, 102.0, -61.30000001192093)
 [09May2025 23:04:37.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
 [09May2025 23:08:06.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [7851857608677403870]
+[09May2025 23:16:25.816] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[09May2025 23:16:25.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[09May2025 23:16:39.521] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:51583] logged in with entity id 28089 at (252.21885530888966, 25.765521076316574, 11.134791788567501)
+[09May2025 23:16:39.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[09May2025 23:16:42.963] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[09May2025 23:16:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[09May2025 23:17:11.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:39187] logged in with entity id 28122 at (252.21885530888966, 24.165521076315994, 11.134791788567501)
+[09May2025 23:17:11.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[09May2025 23:17:13.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Creative Mode
+[09May2025 23:19:17.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [A Terrible Fortress]
+[09May2025 23:19:29.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:19:30.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [A Terrible Fortress]
+[09May2025 23:19:41.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
+[09May2025 23:20:39.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was fireballed by Blaze
+[09May2025 23:20:48.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:21:49.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Zombified Piglin
+[09May2025 23:22:07.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:24:21.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Into Fire]
+[09May2025 23:25:32.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Into Fire]
