@@ -184,3 +184,13 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 23:35:45.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
 [09May2025 23:36:06.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Wither Skeleton
 [09May2025 23:36:08.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Wither Skeleton
+[09May2025 23:36:36.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
+[09May2025 23:36:46.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
+[09May2025 23:36:54.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
+[09May2025 23:37:54.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
+[09May2025 23:38:26.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:40:00.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 withered away whilst fighting Wither Skeleton
+[09May2025 23:40:13.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported bazoka33 to DesmondMX
+[09May2025 23:44:33.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:44:53.412] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
+[09May2025 23:45:49.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has reached the goal [Plant Food]

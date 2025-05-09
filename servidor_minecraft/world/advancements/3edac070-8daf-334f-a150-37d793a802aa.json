@@ -2906,6 +2906,7 @@
       "baked_potato": "2025-05-09 21:09:56 +0000",
       "porkchop": "2025-05-09 23:27:23 +0000",
       "apple": "2025-05-08 21:36:21 +0000",
+      "bread": "2025-05-09 23:39:40 +0000",
       "cod": "2025-05-09 23:26:37 +0000",
       "carrot": "2025-05-08 21:48:47 +0000"
     },
@@ -3523,6 +3524,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_flint": "2025-05-09 22:06:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-05-09 23:41:11 +0000"
     },
     "done": true
   },
@@ -4189,6 +4196,12 @@
   "refurbished_furniture:recipes/misc/constructing/birch_storage_jar": {
     "criteria": {
       "has_glass": "2025-05-09 22:46:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-05-09 23:41:11 +0000"
     },
     "done": true
   },
