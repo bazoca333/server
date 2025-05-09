@@ -122,3 +122,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 21:29:44.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ol' Betsy]
 [09May2025 21:29:52.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Take Aim]
 [09May2025 21:34:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Ice Bucket Challenge]
+[09May2025 21:37:19.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ice Bucket Challenge]
+[09May2025 21:38:10.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Diamonds!]
+[09May2025 21:39:13.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [We Need to Go Deeper]
+[09May2025 21:39:14.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [We Need to Go Deeper]
