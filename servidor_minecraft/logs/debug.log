@@ -1733,3 +1733,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 21:14:37.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DesmondMX[/127.59.116.92:44421] logged in with entity id 2957 at (356.4025721399789, -16.0, -303.30000001192093)
 [09May2025 21:14:37.230] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@681eb8d8 into net.minecraft.network.Connection@4bd8ad10
 [09May2025 21:14:37.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX joined the game
+[09May2025 21:15:16.099] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 21:15:16.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 21:20:16.097] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 21:20:16.104] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
