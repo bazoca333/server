@@ -1737,3 +1737,16 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 21:15:16.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [09May2025 21:20:16.097] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [09May2025 21:20:16.104] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 21:25:02.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Amateur Archaeologist]
+[09May2025 21:25:16.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 21:25:16.090] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 21:25:24.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Voluntary Exile]
+[09May2025 21:27:39.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Ravager
+[09May2025 21:27:42.073] [Server thread/DEBUG] [twilightforest/]: Player DesmondMX (3edac070-8daf-334f-a150-37d793a802aa) respawned and received items held in storage
+[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Hero of the Village]
+[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has completed the challenge [Hero of the Village]
+[09May2025 21:29:44.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ol' Betsy]
+[09May2025 21:29:52.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Take Aim]
+[09May2025 21:30:16.087] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 21:30:16.093] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 21:34:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Ice Bucket Challenge]

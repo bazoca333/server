@@ -114,3 +114,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 21:14:23.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX left the game
 [09May2025 21:14:37.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DesmondMX[/127.59.116.92:44421] logged in with entity id 2957 at (356.4025721399789, -16.0, -303.30000001192093)
 [09May2025 21:14:37.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX joined the game
+[09May2025 21:25:02.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Amateur Archaeologist]
+[09May2025 21:25:24.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Voluntary Exile]
+[09May2025 21:27:39.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Ravager
+[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Hero of the Village]
+[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has completed the challenge [Hero of the Village]
+[09May2025 21:29:44.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ol' Betsy]
+[09May2025 21:29:52.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Take Aim]
+[09May2025 21:34:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Ice Bucket Challenge]
