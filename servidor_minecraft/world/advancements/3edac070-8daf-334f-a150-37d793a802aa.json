@@ -3374,6 +3374,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2025-05-09 22:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-05-09 23:00:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-05-09 21:46:17 +0000",
@@ -4216,6 +4228,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-05-09 23:00:30 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/white_toilet": {
     "criteria": {
       "has_ceiling_fan": "2025-05-09 22:51:14 +0000"
@@ -4333,6 +4351,12 @@
   "refurbished_furniture:recipes/decorations/magenta_toilet": {
     "criteria": {
       "has_ceiling_fan": "2025-05-09 22:51:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-05-09 23:00:30 +0000"
     },
     "done": true
   },
