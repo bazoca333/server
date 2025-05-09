@@ -2494,3 +2494,26 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [09May2025 23:25:16.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [09May2025 23:25:16.092] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [09May2025 23:25:32.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Into Fire]
+[09May2025 23:26:43.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was fireballed by Ghast
+[09May2025 23:26:44.436] [Server thread/DEBUG] [twilightforest/]: Player bazoka33 (37a39fb3-7a0e-3949-bb4e-604592b778b3) respawned and received items held in storage
+[09May2025 23:26:55.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported bazoka33 to DesmondMX
+[09May2025 23:29:25.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Creative Mode
+[09May2025 23:29:48.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX tried to swim in lava
+[09May2025 23:29:50.334] [Server thread/DEBUG] [twilightforest/]: Player DesmondMX (3edac070-8daf-334f-a150-37d793a802aa) respawned and received items held in storage
+[09May2025 23:30:03.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:30:12.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DesmondMX> [name:"Muerte 01:29:48 05-10-2025", x:-223, y:28, z:111, dim:minecraft:the_nether]
+[09May2025 23:30:16.082] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 23:30:16.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 23:30:34.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Hot Tourist Destinations]
+[09May2025 23:31:47.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
+[09May2025 23:34:20.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
+[09May2025 23:34:23.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:35:06.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Wither Skeleton
+[09May2025 23:35:08.512] [Server thread/DEBUG] [twilightforest/]: Player DesmondMX (3edac070-8daf-334f-a150-37d793a802aa) respawned and received items held in storage
+[09May2025 23:35:16.089] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09May2025 23:35:16.094] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09May2025 23:35:45.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
+[09May2025 23:36:06.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Wither Skeleton
+[09May2025 23:36:08.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Wither Skeleton
+[09May2025 23:36:08.569] [Server thread/DEBUG] [twilightforest/]: Player bazoka33 (37a39fb3-7a0e-3949-bb4e-604592b778b3) respawned and received items held in storage
+[09May2025 23:36:09.755] [Server thread/DEBUG] [twilightforest/]: Player DesmondMX (3edac070-8daf-334f-a150-37d793a802aa) respawned and received items held in storage
