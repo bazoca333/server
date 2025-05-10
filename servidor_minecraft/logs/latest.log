@@ -1,196 +1,26 @@
-[09May2025 21:04:55.417] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09May2025 21:04:55.422] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[09May2025 21:04:55.960] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09May2025 21:04:56.018] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[09May2025 21:04:56.268] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[09May2025 21:04:56.270] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09May2025 21:04:56.271] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09May2025 21:04:56.272] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09May2025 21:04:56.427] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[09May2025 21:04:57.910] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09May2025 21:04:57.944] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[09May2025 21:04:58.060] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[09May2025 21:04:58.947] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[09May2025 21:05:01.702] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zba000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09May2025 21:05:02.555] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[09May2025 21:05:02.556] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[09May2025 21:05:02.589] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[09May2025 21:05:02.589] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[09May2025 21:05:02.696] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[09May2025 21:05:02.697] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[09May2025 21:05:02.699] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[09May2025 21:05:02.701] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[09May2025 21:05:02.703] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[09May2025 21:05:02.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[09May2025 21:05:02.707] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[09May2025 21:05:02.708] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[09May2025 21:05:04.137] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[09May2025 21:05:04.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[09May2025 21:05:04.469] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[09May2025 21:05:04.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[09May2025 21:05:04.483] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[09May2025 21:05:04.484] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09May2025 21:05:04.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[09May2025 21:05:04.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[09May2025 21:05:05.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[09May2025 21:05:05.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[09May2025 21:05:06.633] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09May2025 21:05:08.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[09May2025 21:05:08.518] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[09May2025 21:05:08.519] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[09May2025 21:05:09.818] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[09May2025 21:05:09.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[09May2025 21:05:09.870] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[09May2025 21:05:09.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[09May2025 21:05:09.873] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[09May2025 21:05:09.875] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[09May2025 21:05:09.885] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[09May2025 21:05:09.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[09May2025 21:05:09.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
-[09May2025 21:05:10.008] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2597 advancements
-[09May2025 21:05:10.015] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[09May2025 21:05:10.019] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
-[09May2025 21:05:10.021] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[09May2025 21:05:11.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[09May2025 21:05:11.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09May2025 21:05:11.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09May2025 21:05:11.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09May2025 21:05:11.933] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09May2025 21:05:11.953] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09May2025 21:05:12.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09May2025 21:05:12.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09May2025 21:05:12.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09May2025 21:05:12.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09May2025 21:05:12.093] [Server thread/INFO] [Framework/]: Loading server configs...
-[09May2025 21:05:12.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09May2025 21:05:12.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09May2025 21:05:14.337] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:14.379] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:14.386] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:14.390] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:14.853] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:15.381] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2025 21:05:15.818] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[09May2025 21:05:16.088] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3270 ms
-[09May2025 21:05:16.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.037s)! For help, type "help"
-[09May2025 21:05:16.106] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09May2025 21:06:39.918] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:39079] logged in with entity id 216 at (165.69999998807907, 104.0, -85.69999998807907)
-[09May2025 21:06:39.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 21:07:20.630] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DesmondMX[/127.59.116.92:58809] logged in with entity id 500 at (304.5145936597391, 9.0, -264.69999998807907)
-[09May2025 21:07:20.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX joined the game
-[09May2025 21:10:00.853] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=71, y=95, z=-84} BlockPos{x=71, y=93, z=-84}
-[09May2025 21:10:00.922] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=71, y=95, z=-84} BlockPos{x=71, y=93, z=-84}
-[09May2025 21:10:01.952] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=66, y=94, z=-78} BlockPos{x=66, y=93, z=-79}
-[09May2025 21:11:07.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Sneak 100]
-[09May2025 21:14:23.522] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DesmondMX lost connection: Disconnected
-[09May2025 21:14:23.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX left the game
-[09May2025 21:14:37.230] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DesmondMX[/127.59.116.92:44421] logged in with entity id 2957 at (356.4025721399789, -16.0, -303.30000001192093)
-[09May2025 21:14:37.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX joined the game
-[09May2025 21:25:02.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Amateur Archaeologist]
-[09May2025 21:25:24.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Voluntary Exile]
-[09May2025 21:27:39.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Ravager
-[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Hero of the Village]
-[09May2025 21:29:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has completed the challenge [Hero of the Village]
-[09May2025 21:29:44.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ol' Betsy]
-[09May2025 21:29:52.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Take Aim]
-[09May2025 21:34:44.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Ice Bucket Challenge]
-[09May2025 21:37:19.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Ice Bucket Challenge]
-[09May2025 21:38:10.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Diamonds!]
-[09May2025 21:39:13.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [We Need to Go Deeper]
-[09May2025 21:39:14.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [We Need to Go Deeper]
-[09May2025 21:48:05.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Return to Sender]
-[09May2025 21:53:07.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Who is Cutting Onions?]
-[09May2025 21:55:34.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Hot Stuff]
-[09May2025 22:10:06.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty is Easy
-[09May2025 22:10:12.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty has been set to Hard
-[09May2025 22:18:41.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Iron Golem
-[09May2025 22:19:20.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Iron Golem
-[09May2025 22:21:18.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Iron Golem
-[09May2025 22:23:48.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
-[09May2025 22:23:48.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[09May2025 22:23:55.423] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:42065] logged in with entity id 18843 at (79.0737022338802, 91.5, -63.72806060307118)
-[09May2025 22:23:55.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 22:24:08.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
-[09May2025 22:24:08.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[09May2025 22:24:13.574] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:51727] logged in with entity id 18893 at (79.0737022338802, 91.5, -63.72806060307118)
-[09May2025 22:24:13.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 22:26:22.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty is Hard
-[09May2025 22:41:15.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [A Seedy Place]
-[09May2025 22:41:31.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Crops of the Wild]
-[09May2025 22:56:01.413] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Timed out
-[09May2025 22:56:01.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[09May2025 22:58:43.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Fishy Business]
-[09May2025 23:04:37.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:59639] logged in with entity id 26088 at (150.30000001192093, 102.0, -61.30000001192093)
-[09May2025 23:04:37.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 23:08:06.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [7851857608677403870]
-[09May2025 23:16:25.816] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
-[09May2025 23:16:25.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[09May2025 23:16:39.521] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:51583] logged in with entity id 28089 at (252.21885530888966, 25.765521076316574, 11.134791788567501)
-[09May2025 23:16:39.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 23:16:42.963] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
-[09May2025 23:16:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
-[09May2025 23:17:11.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:39187] logged in with entity id 28122 at (252.21885530888966, 24.165521076315994, 11.134791788567501)
-[09May2025 23:17:11.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
-[09May2025 23:17:13.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Creative Mode
-[09May2025 23:19:17.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [A Terrible Fortress]
-[09May2025 23:19:29.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:19:30.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [A Terrible Fortress]
-[09May2025 23:19:41.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
-[09May2025 23:20:39.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was fireballed by Blaze
-[09May2025 23:20:48.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:21:49.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Zombified Piglin
-[09May2025 23:22:07.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:24:21.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has made the advancement [Into Fire]
-[09May2025 23:25:32.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has made the advancement [Into Fire]
-[09May2025 23:26:43.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was fireballed by Ghast
-[09May2025 23:26:55.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported bazoka33 to DesmondMX
-[09May2025 23:29:25.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Creative Mode
-[09May2025 23:29:48.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX tried to swim in lava
-[09May2025 23:30:03.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:30:12.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DesmondMX> [name:"Muerte 01:29:48 05-10-2025", x:-223, y:28, z:111, dim:minecraft:the_nether]
-[09May2025 23:30:34.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 has completed the challenge [Hot Tourist Destinations]
-[09May2025 23:31:47.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
-[09May2025 23:34:20.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
-[09May2025 23:34:23.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:35:06.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Wither Skeleton
-[09May2025 23:35:45.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:36:06.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 was slain by Wither Skeleton
-[09May2025 23:36:08.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX was slain by Wither Skeleton
-[09May2025 23:36:36.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
-[09May2025 23:36:46.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
-[09May2025 23:36:54.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Spectator Mode
-[09May2025 23:37:54.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set bazoka33's game mode to Survival Mode
-[09May2025 23:38:26.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:40:00.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 withered away whilst fighting Wither Skeleton
-[09May2025 23:40:13.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported bazoka33 to DesmondMX
-[09May2025 23:44:33.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported DesmondMX to bazoka33
-[09May2025 23:44:53.412] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
-[09May2025 23:45:49.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX has reached the goal [Plant Food]
+[10May2025 00:04:06.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[10May2025 00:04:06.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[10May2025 00:04:12.223] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: bazoka33[/127.180.216.32:35893] logged in with entity id 40375 at (156.4136569886506, 102.0, -77.30584120811498)
+[10May2025 00:04:12.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 joined the game
+[10May2025 00:05:25.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: bazoka33 lost connection: Disconnected
+[10May2025 00:05:25.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: bazoka33 left the game
+[10May2025 00:05:27.413] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DesmondMX lost connection: Disconnected
+[10May2025 00:05:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DesmondMX left the game
+[10May2025 00:06:06.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[10May2025 00:06:06.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: wstop<--[HERE]
+[10May2025 00:06:09.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10May2025 00:06:09.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10May2025 00:06:09.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10May2025 00:06:09.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10May2025 00:06:09.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10May2025 00:06:10.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10May2025 00:06:10.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[10May2025 00:06:10.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10May2025 00:06:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10May2025 00:06:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10May2025 00:06:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[10May2025 00:06:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10May2025 00:06:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10May2025 00:06:10.358] [Server thread/INFO] [Framework/]: Unloading server configs...
+[10May2025 00:06:10.360] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[10May2025 00:06:10.361] [Server thread/INFO] [Framework/]: Finished unloading server configs
